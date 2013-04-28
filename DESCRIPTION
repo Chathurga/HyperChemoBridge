@@ -1,0 +1,10 @@
+Package: HyperChemoBridge
+Type: Package
+Title: Methods for converting between HyperSpec and ChemoSpec objects
+Version: 1.0
+Date: 2013-04-27
+Author: Conor McManus
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Depends: hyperSpec, ChemoSpec
