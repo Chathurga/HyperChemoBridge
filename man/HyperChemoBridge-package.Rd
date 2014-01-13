@@ -1,38 +1,27 @@
-\name{HyperChemoBridge-package}
-\alias{HyperChemoBridge-package}
-\alias{HyperChemoBridge}
+\name{hyperChemoBridge-package}
+\alias{hyperChemoBridge-package}
+\alias{hyperChemoBridge}
 \docType{package}
 \title{
-HyperSpec/ChemoSpec Bridge
+Bridge between hyperSpec & ChemoSpec
 }
 \description{
-Methods for converting between HyperSpec and ChemoSpec objects
+Functions for converting between hyperSpec and ChemoSpec (Spectra) objects
 }
 \details{
 \tabular{ll}{
-Package: \tab HyperChemoBridge\cr
+Package: \tab hyperChemoBridge\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-04-27\cr
-License: \tab What license is it under?\cr
+Version: \tab 1.1\cr
+Date: \tab 2014-01-13\cr
+License: \tab GPL-3\cr
 }
-~~ An overview of how to use the package, including the most important ~~
-~~ functions ~~
 }
 \author{
 Conor McManus
-Maintainer: ? <yourfault@somewhere.net>
+Maintainer: Bryan A. Hanson \email{hanson@depauw.edu}
 }
 \references{
-~~ Literature or other references for background information ~~
+\url{https://github.com/Chathurga/HyperChemoBridge}
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
-~~ the R documentation directory ~~
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
-\examples{
-~~ simple examples of the most important functions ~~
-}

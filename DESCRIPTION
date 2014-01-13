@@ -1,10 +1,15 @@
-Package: HyperChemoBridge
+Package: hyperChemoBridge
 Type: Package
-Title: HyperSpec/ChemoSpec Bridge
-Version: 1.0
-Date: 2013-04-27
-Author: Conor McManus
-Maintainer: ? <yourfault@somewhere.net>
-Description: Methods for converting between HyperSpec and ChemoSpec objects
-License: ?
-Depends: hyperSpec, ChemoSpec
+Title: Bridge between hyperSpec & ChemoSpec
+Version: 1.1
+Date: 2014-01-13
+Authors@R:	c(person("Bryan", "A.", "Hanson", role = c(“ctb”, "cre"), email = "hanson@depauw.edu"),
+		person(“Conor”, “McManus”, role = “aut”))
+Maintainer: Bryan A. Hanson <hanson@depauw.edu>
+Description: Functions for converting between hyperSpec and ChemoSpec (Spectra) objects
+License: GPL-3
+Depends: R (>= 3.0)
+Suggests: hyperSpec, ChemoSpec
+ByteCompile: TRUE
+URL: https://github.com/Chathurga/HyperChemoBridge
+BugReports: https://github.com/Chathurga/HyperChemoBridge/issues
