@@ -1,6 +1,6 @@
-## How to install HyperChemoBridge
+### How to install HyperChemoBridge
 
-### To install from Github:
+#### To install from Github:
 
 ````r
 install.packages("devtools")
@@ -10,13 +10,13 @@ library("HyperChemoBridge")
 ````
 If you use `ref = "some_other_branch"` you can get other branches that might be available.  They may or may not pass CRAN checks and thus may not install automatically using the method above.  Check the NEWS file to see what's up.
 
-### License Information
+#### License Information
 
 HyperChemoBridge is distributed under the GPL-3 license, as stated in the DESCRIPTION file.  For more info, see the [GPL site.](https://gnu.org/licenses/gpl.html)
 
 Questions?  hanson@depauw.edu
 
-## A Comparison of the R Packages hyperSpec & ChemoSpec
+### A Comparison of the R Packages hyperSpec & ChemoSpec
 
 This page compares these two packages for your convenience.  This is not a comprehensive list of functions in each package, only a comparison of frequently needed tasks.  See the respective package vignettes, index pages and help pages for details.
 
