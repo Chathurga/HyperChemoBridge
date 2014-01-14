@@ -18,7 +18,7 @@ License: \tab GPL-3\cr
 }
 }
 \author{
-Conor McManus
+Conor McManus.\cr
 Maintainer: Bryan A. Hanson \email{hanson@depauw.edu}
 }
 \references{
