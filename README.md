@@ -5,7 +5,7 @@
 ````r
 install.packages("devtools")
 library("devtools")
-install_github(repo = "HyperChemoBridge", username = "chaturga", ref = "master")
+install_github(repo = "HyperChemoBridge", username = "Chathurga", ref = "master")
 library("HyperChemoBridge")
 ````
 If you use `ref = "some_other_branch"` you can get other branches that might be available.  They may or may not pass CRAN checks and thus may not install automatically using the method above.  Check the NEWS file to see what's up.
