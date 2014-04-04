@@ -1,4 +1,4 @@
-Spectra2hyperSpec <- function(Spectra) {
+spectra2hyperSpec <- function(Spectra) {
   label <- list()
   label$.wavelength <- Spectra$unit[1]
   label$spc <- Spectra$unit[2]
