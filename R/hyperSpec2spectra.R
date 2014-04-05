@@ -1,7 +1,7 @@
 hyperSpec2spectra <- function(hyperSpec, desc = "no description provided",
 	names = NULL, groups = NULL, colors = NULL) {
 
-  spectra <- vector("list", 9)
+  spectra <- vector("list")
   freq <- data <- sym <- alt.sym <- .wavelength <- spc <- NA
   spectra$freq <- hyperSpec@wavelength
   spectra$data <- hyperSpec@data$spc
@@ -39,10 +39,9 @@ hyperSpec2spectra <- function(hyperSpec, desc = "no description provided",
   spectra$unit[2] <- unit2
 #  print(spectra$unit)
 
-
   spectra$desc = desc
   class(spectra) <- "Spectra"
-  print(str(spectra))
+#  print(str(spectra))
   chkSpectra(spectra)
   spectra
 }

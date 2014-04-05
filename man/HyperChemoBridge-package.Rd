@@ -12,8 +12,8 @@ Functions for converting between hyperSpec and ChemoSpec (Spectra) objects as us
 \tabular{ll}{
 Package: \tab hyperChemoBridge\cr
 Type: \tab Package\cr
-Version: \tab 1.1.2\cr
-Date: \tab 2014-04-03\cr
+Version: \tab 1.1.3\cr
+Date: \tab 2014-04-05\cr
 License: \tab GPL-3\cr
 }
 }
