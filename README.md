@@ -1,18 +1,20 @@
-### How to install HyperChemoBridge
+### How to install hyperChemoBridge
+
+NOTE: The repository is named HyperChemoBridge, but the package is hyperChemoBridge (note different capitalization).
 
 #### To install from Github:
 
 ````r
 install.packages("devtools")
 library("devtools")
-install_github(repo = "HyperChemoBridge", username = "Chathurga", ref = "master")
-library("HyperChemoBridge")
+install_github(repo = "Chaturga/HyperChemoBridge", ref = "master")
+library("hyperChemoBridge")
 ````
 If you use `ref = "some_other_branch"` you can get other branches that might be available.  They may or may not pass CRAN checks and thus may not install automatically using the method above.  Check the NEWS file to see what's up.
 
 #### License Information
 
-HyperChemoBridge is distributed under the GPL-3 license, as stated in the DESCRIPTION file.  For more info, see the [GPL site.](https://gnu.org/licenses/gpl.html)
+hyperChemoBridge is distributed under the GPL-3 license, as stated in the DESCRIPTION file.  For more info, see the [GPL site.](https://gnu.org/licenses/gpl.html)
 
 Questions?  hanson@depauw.edu
 
@@ -40,6 +42,7 @@ summarize data | type name_of_data_set | `sumSpectra`
 baseline correct spectra | `spc.fit.poly` | `baselineSpec`
 normalize spectral data | `sweep(spc, 1, rowMeans(spc), "/")` | `normSpectra`
 bin spectral data | `spc.bin` | `binBuck`
+align spectral data | * | `clupaSpectra`
 remove selected samples | see `?"["` | `removeSample`
 remove selected frequencies | see `?"["` | `removeFreq`
 remove selected groups | see `?"["` | `removeGroups`
@@ -50,4 +53,3 @@ compare different data sets | `Compare` | *
 merge different data sets | `merge` | *
 
 \* There is no function for this action, it will have to be done manually.
-

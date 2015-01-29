@@ -41,7 +41,8 @@ Maintainer: Bryan A. Hanson \email{hanson@depauw.edu}
 require("hyperSpec")
 require("RColorBrewer")
 flu # get a data set from hyperSpec
-quinine <- hyperSpec2spectra(hyperSpec = flu, desc = "Quinine fluorescence calibration data from hyperSpec",
+quinine <- hyperSpec2spectra(hyperSpec = flu,
+desc = "Quinine fluorescence calibration data from hyperSpec",
 names = paste("flu", 1:6, sep = ""), groups = rep("calib", 6), colors = brewer.pal(6, "Set1"))
 sumSpectra(quinine)
 str(quinine)
