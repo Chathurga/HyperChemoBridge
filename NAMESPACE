@@ -1,2 +1,5 @@
-exportPattern("^[[:alpha:]]+")
-import(hyperSpec, ChemoSpec)
+export(hyperSpec2spectra)
+export(spectra2hyperSpec)
+
+importFrom(ChemoSpec, chkSpectra)
+importMethodsFrom(hyperSpec, .initialize)

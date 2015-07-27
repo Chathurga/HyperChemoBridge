@@ -7,10 +7,10 @@ NOTE: The repository is named HyperChemoBridge, but the package is hyperChemoBri
 ````r
 install.packages("devtools")
 library("devtools")
-install_github(repo = "Chaturga/HyperChemoBridge", ref = "master")
+install_github(repo = "Chaturga/HyperChemoBridge@master")
 library("hyperChemoBridge")
 ````
-If you use `ref = "some_other_branch"` you can get other branches that might be available.  They may or may not pass CRAN checks and thus may not install automatically using the method above.  Check the NEWS file to see what's up.
+If you use `"@some_other_branch"` you can get other branches that might be available.  They may or may not pass CRAN checks and thus may not install automatically using the method above.  Check the NEWS file to see what's up.
 
 #### License Information
 
@@ -31,6 +31,8 @@ The focus of hyperSpec is on data handling: it provides methods for manipulating
 For example, hyperSpec uses dedicated method dispatch which makes data handling very straightforward.  If, for instance, you want to take the log of your spectral data, `new_object <- log(object)` will take care of it.  hyperSpec automatically accesses just the spectral data contained in the larger structure, and takes the log of that part, then returns the entire object.  For ChemoSpec, you would have to dig into the object yourself: `object$data <- log(object$data)`.  Another example would be that in hyperSpec, typing the name of the object gives you a summary of the object.  Doing so in the ChemoSpec would write the object to the screen, not very desirable.  In ChemoSpec, you may wish to do `str(object)` or, better, `sumSpectra(object)`.
 
 For statistical methods, ChemoSpec provides wrappers.  For  instance, to carry out PCA, you might choose `classPCA` which handles most of the details of the prcomp object in the background.  In hyperSpec, you'll need to do some of the work yourself (see Section 4.5 of the vignette on the chondro data set, via `vignette("chondro")`.
+
+The following table does not cover every option in each package by any means.  See the indices for each package for complete coverage.
 
 task | hyperSpec | ChemoSpec
 --- |---| ---

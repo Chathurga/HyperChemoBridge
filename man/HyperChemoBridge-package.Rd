@@ -8,15 +8,6 @@ Bridge between hyperSpec & ChemoSpec packages
 \description{
 Functions for converting between hyperSpec and ChemoSpec (Spectra) objects as used by the respective packages.
 }
-\details{
-\tabular{ll}{
-Package: \tab hyperChemoBridge\cr
-Type: \tab Package\cr
-Version: \tab 1.1-4\cr
-Date: \tab 2015-01-29\cr
-License: \tab GPL-3\cr
-}
-}
 \author{
 Conor McManus.\cr
 Maintainer: Bryan A. Hanson \email{hanson@depauw.edu}
