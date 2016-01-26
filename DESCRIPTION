@@ -1,15 +1,15 @@
 Package: hyperChemoBridge
 Type: Package
 Title: Bridge Between hyperSpec & ChemoSpec
-Version: 1.1.13
-Date: 2015-07-27
+Version: 1.1.26
+Date: 2016-01-26
 Authors@R:	c(person("Bryan A.", "Hanson", role = c("ctb", "cre"), email = "hanson@depauw.edu"),
 		person("Conor", "McManus", role = "aut"))
 Maintainer: Bryan A. Hanson <hanson@depauw.edu>
 Description: Functions for converting between 'hyperSpec' and 'ChemoSpec' (Spectra) objects.
 License: GPL-3
-Depends: R (>= 3.0), ChemoSpec, hyperSpec
-Suggests: RColorBrewer
+Depends: R (>= 3.0), ChemoSpec, methods
+Suggests: RColorBrewer, hyperSpec
 ByteCompile: TRUE
 URL: https://github.com/Chathurga/HyperChemoBridge
 BugReports: https://github.com/Chathurga/HyperChemoBridge/issues

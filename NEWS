@@ -3,7 +3,7 @@ NEWS file for package HyperChemoSpec
 
 Bryan A. Hanson DePauw University, Greencastle Indiana USA
 
-Changes in version 1.1.xx 2015-07-27
+Changes in version 1.1.26 2016-01-26
      + Additional format changes to NEWS
      + Made ignore infrastructure more consistent.
      + Namespace changes to work with R 3.3 devel.

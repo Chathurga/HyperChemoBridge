@@ -2,4 +2,4 @@ export(hyperSpec2spectra)
 export(spectra2hyperSpec)
 
 importFrom(ChemoSpec, chkSpectra)
-importMethodsFrom(hyperSpec, .initialize)
+importFrom(methods, new)
