@@ -1,8 +1,8 @@
 Package: hyperChemoBridge
 Type: Package
 Title: Bridge Between hyperSpec & ChemoSpec
-Version: 1.1.26
-Date: 2016-01-26
+Version: 1.1.29
+Date: 2018-05-25
 Authors@R:	c(person("Bryan A.", "Hanson", role = c("ctb", "cre"), email = "hanson@depauw.edu"),
 		person("Conor", "McManus", role = "aut"))
 Maintainer: Bryan A. Hanson <hanson@depauw.edu>
