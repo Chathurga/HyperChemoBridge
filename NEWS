@@ -3,6 +3,11 @@ NEWS file for package HyperChemoSpec
 
 Bryan A. Hanson DePauw University, Greencastle Indiana USA
 
+Changes in version x.x.x 2020-09-01
+     + Overhaul README.md.
+     + Build & check against R 4.02.
+     + Switch documentation to roxygen2.
+
 Changes in version 1.1.29 2018-05-25
      + Rebuilt under R devel (r74542 ~ 3.6) to verify all is good.  It is.
 
