@@ -4,7 +4,7 @@
 #' This function converts a \code{hyperSpec} object from the package of the same
 #' name, to a \code{Spectra} object as used in the \code{ChemoSpec} package.
 #'
-#' @param hyperSpec A \code{\link[=setClass]{hyperspec}} object.
+#' @param hyperSpec A \url{https://cbeleites.github.io/hyperSpec/reference/hyperSpec-class.html} object.
 #'
 #' @param desc Character.  A description of the data set.
 #'

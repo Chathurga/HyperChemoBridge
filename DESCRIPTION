@@ -1,7 +1,7 @@
 Package: hyperChemoBridge
 Type: Package
 Title: Bridge Between hyperSpec & ChemoSpec
-Version: 1.1.46
+Version: 1.1.49
 Date: 2020-09-01
 Authors@R: c(person("Bryan A.", "Hanson",
                role = c("ctb", "cre"),

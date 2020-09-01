@@ -13,7 +13,7 @@ hyperSpec2spectra(
 )
 }
 \arguments{
-\item{hyperSpec}{A \code{\link[=setClass]{hyperspec}} object.}
+\item{hyperSpec}{A \url{https://cbeleites.github.io/hyperSpec/reference/hyperSpec-class.html} object.}
 
 \item{desc}{Character.  A description of the data set.}
 

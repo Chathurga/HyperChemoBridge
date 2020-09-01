@@ -6,7 +6,7 @@
 #'
 #' @param Spectra A \code{\link[ChemoSpec]{Spectra}} object.
 #'
-#' @return A \code{\link[=setClass]{hyperspec}} object.
+#' @return A \url{https://cbeleites.github.io/hyperSpec/reference/hyperSpec-class.html} object.
 #'
 #' @keywords utilities
 #' @author Conor McManus
