@@ -10,7 +10,7 @@ spectra2hyperSpec(Spectra)
 \item{Spectra}{A \code{\link[ChemoSpec]{Spectra}} object.}
 }
 \value{
-A \url{https://cbeleites.github.io/hyperSpec/reference/hyperSpec-class.html} object.
+A \href{https://cbeleites.github.io/hyperSpec/reference/hyperSpec-class.html}{hyperSpec} object.
 }
 \description{
 This function converts a \code{Spectra} object as used the in the \code{ChemoSpec}
