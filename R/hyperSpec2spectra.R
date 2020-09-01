@@ -1,3 +1,35 @@
+#'
+#' Convert a hyperSpec object to a ChemoSpec object
+#'
+#' This function converts a \code{hyperSpec} object from the package of the same
+#' name, to a \code{Spectra} object as used in the \code{ChemoSpec} package.
+#'
+#' @param hyperSpec A \code{\link[hyperSpec:hyperSpec-class]{hyperSpec}} object.
+#'
+#' @param desc Character.  A description of the data set.
+#'
+#' @param names Character.  A vector of sample names.
+#'
+#' @param colors Character.  A vector of colors.
+#'
+#' @param groups Factor.  A vector of factors giving the sample memmbership.
+#'
+#' @return A \code{\link[ChemoSpec]{Spectra}} object.
+#'
+#' @keyword utilities
+#' @author Conor McManus
+#' 
+#' @examples
+#' require("hyperSpec")
+#' require("RColorBrewer")
+#' quinine <- hyperSpec2spectra(hyperSpec = flu,
+#'   desc = "Quinine fluorescence calibration data from hyperSpec",
+#'   names = paste("flu", 1:6, sep = ""),
+#'   groups = rep("calib", 6),
+#'   colors = brewer.pal(6, "Set1"))
+#' sumSpectra(quinine)
+#' str(quinine)
+#' 
 hyperSpec2spectra <- function(hyperSpec, desc = "no description provided",
 	names = NULL, groups = NULL, colors = NULL) {
 
