@@ -4,7 +4,7 @@
 #' This function converts a \code{hyperSpec} object from the package of the same
 #' name, to a \code{Spectra} object as used in the \code{ChemoSpec} package.
 #'
-#' @param hyperSpec A \code{\link[hyperSpec:hyperSpec-class]{hyperSpec}} object.
+#' @param hyperSpec A \code{\link[=setClass]{hyperspec}} object.
 #'
 #' @param desc Character.  A description of the data set.
 #'
@@ -12,12 +12,14 @@
 #'
 #' @param colors Character.  A vector of colors.
 #'
-#' @param groups Factor.  A vector of factors giving the sample memmbership.
+#' @param groups Factor.  A vector of factors giving the sample membership.
 #'
 #' @return A \code{\link[ChemoSpec]{Spectra}} object.
 #'
-#' @keyword utilities
+#' @keywords utilities
 #' @author Conor McManus
+#' @export
+#' @importFrom ChemoSpec chkSpectra
 #' 
 #' @examples
 #' require("hyperSpec")
@@ -68,7 +70,7 @@ hyperSpec2spectra <- function(hyperSpec, desc = "no description provided",
   spectra$unit[1] <- unit1
   spectra$unit[2] <- unit2
 
-  spectra$desc = desc
+  spectra$desc <- desc
   class(spectra) <- "Spectra"
   chkSpectra(spectra)
   spectra

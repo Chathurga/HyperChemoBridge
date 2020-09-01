@@ -6,10 +6,12 @@
 #'
 #' @param Spectra A \code{\link[ChemoSpec]{Spectra}} object.
 #'
-#' @return A \code{\link[hyperSpec:hyperSpec-class]{hyperSpec}} object.
+#' @return A \code{\link[=setClass]{hyperspec}} object.
 #'
-#' @keyword utilities
+#' @keywords utilities
 #' @author Conor McManus
+#' @export
+#' @importFrom methods new
 #' 
 #' @examples
 #' require("hyperSpec")
